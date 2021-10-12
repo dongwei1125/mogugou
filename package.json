@@ -1,0 +1,45 @@
+{
+  "name": "mogugou",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "serve": "nodemon serve/app.js",
+    "eslint:fix": "eslint src/**/*.js src/**/*.vue serve/**/*.js --fix"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "better-scroll": "^2.0.5",
+    "core-js": "^3.6.5",
+    "fastclick": "^1.0.6",
+    "normalize.css": "^8.0.1",
+    "swiper": "^5.2.0",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "express": "^4.17.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^2.5.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
